@@ -20,3 +20,6 @@ kpsewhich -var-value=TEXMFHOME
 > Under Linux this is usually `~/texmf/tex/latex`
 
 Note that a TeX distribution and the package `tuda-ci` must be available.
+
+Additionally, Texindy must be present and the `-shell-escape` flag must be turned on to compile
+the TeX source.
